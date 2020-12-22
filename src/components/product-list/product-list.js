@@ -1,4 +1,5 @@
 import React from 'react';
+import ProductListItem from '../product-list-item/product-list-item';
 import './product.css';
 
 const ProductList = () => {
@@ -12,22 +13,22 @@ const ProductList = () => {
                     The account name is Account1
                 </h2>
             </div>
+            <input 
+                    className='search-panel form-control search-panel'
+                    placeholder='Type for searching...'>
+                </input>
             <h4 class='d-flex justify-content-around'>
                 <div class='product-list-subheader d-flex'>#code</div>
+                <div class='product-list-subheader d-flex'>checkbox</div>
                 <div class='product-list-subheader d-flex'>Colonum-1</div>
                 <div class='product-list-subheader d-flex'>Colonum-2</div>
                 <div class='product-list-subheader d-flex'>Colonum-3</div>
                 <div class='product-list-subheader d-flex'>Colonum-4</div>
                 <div class='product-list-subheader d-flex'>Colonum-5</div>
             </h4>
-            <div class='product-list-item d-flex justify-content-around'>
-                <div class='d-flex'>#00001</div>
-                <div class='d-flex'>item-short-name</div>
-                <div class='d-flex'>item-unit</div>
-                <div class='d-flex'>item-quantity</div>
-                <div class='d-flex'>item-price</div>
-                <div class='d-flex'>item-note</div>
-            </div>
+            <ProductListItem />
+            <ProductListItem />
+            <ProductListItem />
         </>
     );
 } 
