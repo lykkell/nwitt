@@ -55,9 +55,9 @@ const List = () => {
                 <div className='product-list-subheader d-flex'>Colonum-4</div>
                 <div className='product-list-subheader d-flex'>Colonum-5</div>
             </h4>
-            <ListItem />
-            <ListItem />
-            <ListItem />
+            <ListItem itemId='000001' itemShortName='Product1' itemUnit='kg' itemQuantity='0.5' itemPrice='110' itemNote=''/>
+            {/* <ListItem itemId='000002' itemShortName='Product2'/>
+            <ListItem itemId='000003' itemShortName='Product3'/> */}
             <div className="d-flex justify-content-center">
                 <button type="button" className="btn btn-success">Add item to order</button>
                 <button type="button" className="btn btn-success">Add item to my favorits</button>
