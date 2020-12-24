@@ -1,6 +1,6 @@
 // import { getAllByDisplayValue } from '@testing-library/react';
 import React from 'react';
-import ListItem from './list-item';
+import ListItem from '../list-item';
 import './list.css';
 
 const List = () => {
