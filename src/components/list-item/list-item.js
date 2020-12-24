@@ -5,7 +5,16 @@ const ListItem = ({itemId, itemShortName, itemUnit, itemQuantity, itemPrice, ite
         <>
              <div className='list-item d-flex justify-content-around'>
                 <div className='d-flex'>{itemId}</div>
-                <button type='button' className='fa fa-checkbox d-flex'></button>
+                <button 
+                    type='button' 
+                    className='btn-checkbox btn-sm'>
+                    <i className='fa fa-checkbox'></i>
+                </button>
+                <button 
+                    type='button'
+                    className='btn-star btn-sm'>
+                    <i className='fa fa-star'></i>
+                </button>
                 <div className='d-flex'>{itemShortName}</div>
                 <div className='d-flex'>{itemUnit}</div>
                 <div className='d-flex'>{itemQuantity}</div>

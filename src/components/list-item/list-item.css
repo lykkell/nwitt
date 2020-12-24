@@ -1,0 +1,55 @@
+.list-item {
+    font-size: 1.25rem;
+  }
+  
+  .list-item button {
+    width: 35px;
+    height: 35px;
+    margin: 3px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  .list-item button:focus {
+      box-shadow: none;
+      outline: none;
+  }
+  .list-item .btn-star {
+      color: #FFD700;
+  }
+  .list-item .btn-trash {
+      color: red;
+  }
+  .list-item .fa-heart {
+      width: 35px;
+      height: 35px;
+      text-align: center;
+      line-height: 35px;
+      font-size: 16px;
+      color: red;
+      transition: 0.3s all;
+      transform: translateX(30px);
+      opacity: 0;
+  }
+  
+  .list-item-label {
+    display: block;
+    line-height: 35px;
+    cursor: pointer;
+    user-select: none;
+    transition: 0.5s all;
+  }
+  
+  .list-item.like .fa-heart {
+      opacity: 1;
+      transform: translateX(0px);
+  }
+  
+  .list-item.important .list-item-label {
+    color: #FFD700;
+  }
+  
+  .list-item.important .btn-star {
+      color: #aeaeae;
+  }
+  
