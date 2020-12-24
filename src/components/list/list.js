@@ -40,20 +40,20 @@ const List = () => {
                     <button type='button' className='btn btn-info'>All items</button>
                     <button type='button' className='btn btn-info'>My favorit items</button>
                 </div>
-
-                <input className='d-flex justify-content-end'
-                    className='search-panel form-control search-panel'
+                <input 
+                    className='form-control search-panel d-flex justify-content-end'
                     placeholder='Type for searching...'>
                 </input>
             </div>
             <h4 className='d-flex justify-content-around'>
                 <div className='product-list-subheader d-flex'>#code</div>
                 <div className='product-list-subheader d-flex'>checkbox</div>
-                <div className='product-list-subheader d-flex'>Colonum-1</div>
-                <div className='product-list-subheader d-flex'>Colonum-2</div>
-                <div className='product-list-subheader d-flex'>Colonum-3</div>
-                <div className='product-list-subheader d-flex'>Colonum-4</div>
-                <div className='product-list-subheader d-flex'>Colonum-5</div>
+                <div className='product-list-subheader d-flex'>favorit</div>
+                <div className='product-list-subheader d-flex'>Col-1</div>
+                <div className='product-list-subheader d-flex'>Col-2</div>
+                <div className='product-list-subheader d-flex'>Col-3</div>
+                <div className='product-list-subheader d-flex'>Col-4</div>
+                <div className='product-list-subheader d-flex'>Col-5</div>
             </h4>
             <ListItem itemId='000001' itemShortName='Product1' itemUnit='kg' itemQuantity='0.5' itemPrice='110' itemNote=''/>
             {/* <ListItem itemId='000002' itemShortName='Product2'/>
